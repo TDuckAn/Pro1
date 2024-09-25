@@ -14,7 +14,12 @@
             font-family:'Open Sans', serif;
             margin: 0;
             padding: 0;
-            background-color: #fefefe;
+            background-image: url('https://i.pinimg.com/1200x/7e/5a/51/7e5a51cfea8b6184c1638e0c1eadb444.jpg');
+            background-size: contain;
+            background-position: center;
+            background-attachment: fixed ;
+            box-sizing: border-box;
+
             font-size: 25px;
         }
         header {
@@ -23,6 +28,13 @@
             text-align: center;
             padding: 20px;
             font-family: 'Lobster Two', cursive;
+        }
+        .text-container {
+            background-color: rgb(255, 255, 255); 
+            padding: 60px;
+            border-radius: 10px; 
+            max-width: 900px;
+            margin: 20px auto;
         }
         header h1 {
             margin: 0;
@@ -48,7 +60,7 @@
             background-color: #6f4e37;
             color: white;
             text-align: center;
-            padding: 10px;
+            padding: 15px;
             margin-top: 20px;
         }
         a {
@@ -58,10 +70,19 @@
         a:hover {
             text-decoration: underline;
         }
+        p{
+            font-size: 20px;
+        }
         figcaption {
             font-style: italic;
             text-align: center;
             color: #6f4e37;
+        }
+        li{
+            font-size: 20px;
+        }
+        a1{
+            font-size: 15px;
         }
     </style>
 </head>
@@ -72,6 +93,7 @@
 </header>
 
 <main>
+    <div class="text-container">
     <section>
         <h2>Introduction to Coffee</h2>
         <p>Coffee is one of the most beloved beverages worldwide, known for its rich flavor and stimulating effects. Whether you enjoy it black, with cream, or as a fancy espresso, coffee plays a significant role in many cultures.</p>
@@ -121,10 +143,11 @@
             <figcaption>From harvesting to brewing: the coffee-making journey</figcaption>
         </figure>
     </section>
+    </div>
 </main>
 
 <footer>
-    <p>Learn more about coffee on <a href="https://www.ncausa.org/about-coffee" target="_blank">National Coffee Association</a>.</p>
+    <a1>Learn more about coffee on <a href="https://www.ncausa.org/about-coffee" target="_blank">National Coffee Association</a>.</a1>
 </footer>
 
 </body>
